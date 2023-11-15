@@ -83,7 +83,7 @@ recognition.maxAlternatives = 10;
 console.log(speechRecognitionList[0]);
 
 // question will eventually be randomly chosen.
-let question = "c";
+let question = "a";
 let matchQuestion = phonetic[question]
 let appendQuestion = document.getElementById("question");
 
